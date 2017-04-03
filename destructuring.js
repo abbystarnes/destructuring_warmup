@@ -17,14 +17,13 @@ let g48 = {
 
 
 
-
 // Use the partyParrot object again, but this time give the values different
 // variable names and log them to the console
 
 
 
 
-// Use the g48 object to create 5 variables! hint: default values
+// Use the g48 object and destructuring to create 5 variables! hint: default values
 // log them all to the console!
 
 
@@ -55,3 +54,11 @@ let randomArr = [1, 'space x', false, ['cool', 'beans']]
 
 
 //Bonus: Only grab out the last value of the nested array
+
+
+
+///////////////////////////////////////////////////////////////////////////////
+let doggo = 'A little doggo';
+let pupper = 'A big pupper';
+
+//Use destructuring to swap the values of doggo and pupper and log the values to the console!
