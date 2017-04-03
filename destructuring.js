@@ -1,6 +1,3 @@
-// Create a seperate variable for every key in this object using destructuring and
-// log all the variable to the console
-
 let partyParrot = {
   isBird: true,
   hatesParties: false,
@@ -9,6 +6,17 @@ let partyParrot = {
   hobbies: ['partying', 'soccer', 'dancing'],
 }
 
+let g48 = {
+  learningExpress: true,
+  size: 19,
+  floor: '2nd'
+}
+
+// Create a seperate variable for every key in partyParrot using destructuring and
+// log all the variable to the console
+
+
+
 
 // Use the partyParrot object again, but this time give the values different
 // variable names and log them to the console
@@ -16,8 +24,9 @@ let partyParrot = {
 
 
 
-// Use partyParrot again, but this time create 7 variables! hint: default values
+// Use the g48 object to create 5 variables! hint: default values
 // log them all to the console!
+
 
 
 
@@ -25,7 +34,7 @@ let partyParrot = {
 let nested = {
   isFun: true,
   lowerLevel: {
-    name: 'Rick Sanchez',
+    codename: 'Rick Sanchez',
     profession: 'Scientist'
   }
 }
@@ -38,8 +47,11 @@ let randomArr = [1, 'space x', false, ['cool', 'beans']]
 
 
 
+
 // Use randomArr again, but only create variable for the first and last index!
 // log them to the console!
+
+
 
 
 //Bonus: Only grab out the last value of the nested array
